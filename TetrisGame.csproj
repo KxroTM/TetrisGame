@@ -5,6 +5,108 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Background.png" />
+    <None Remove="Assets\Block-Empty.png" />
+    <None Remove="Assets\Block-I.png" />
+    <None Remove="Assets\Block-J.png" />
+    <None Remove="Assets\Block-L.png" />
+    <None Remove="Assets\Block-O.png" />
+    <None Remove="Assets\Block-S.png" />
+    <None Remove="Assets\Block-T.png" />
+    <None Remove="Assets\Block-Z.png" />
+    <None Remove="Assets\logo.png" />
+    <None Remove="Assets\sound\me_game_gameover.wav" />
+    <None Remove="Assets\sound\me_game_plvup.wav" />
+    <None Remove="Assets\sound\me_game_start2_vo_fr.wav" />
+    <None Remove="Assets\sound\se_game_harddrop.wav" />
+    <None Remove="Assets\sound\se_game_pause.wav" />
+    <None Remove="Assets\sound\se_game_rotate.wav" />
+    <None Remove="Assets\sound\se_sys_select.wav" />
+    <None Remove="Assets\sound\tetris_ost.wav" />
+    <None Remove="Assets\TileBlue.png" />
+    <None Remove="Assets\TileCyan.png" />
+    <None Remove="Assets\TileEmpty.png" />
+    <None Remove="Assets\TileGreen.png" />
+    <None Remove="Assets\TileOrange.png" />
+    <None Remove="Assets\TilePurple.png" />
+    <None Remove="Assets\TileRed.png" />
+    <None Remove="Assets\TileYellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\sound\me_game_gameover.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sound\me_game_plvup.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sound\me_game_start2_vo_fr.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sound\se_game_harddrop.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sound\se_game_pause.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sound\se_game_rotate.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sound\se_sys_select.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Background.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Block-Empty.png" />
+    <Resource Include="Assets\Block-I.png" />
+    <Resource Include="Assets\Block-J.png" />
+    <Resource Include="Assets\Block-L.png" />
+    <Resource Include="Assets\Block-O.png" />
+    <Resource Include="Assets\Block-S.png" />
+    <Resource Include="Assets\Block-T.png" />
+    <Resource Include="Assets\Block-Z.png" />
+    <Content Include="Assets\sound\tetris_ost.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Assets\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\TileBlue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\TileCyan.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\TileEmpty.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\TileGreen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\TileOrange.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\TilePurple.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\TileRed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\TileYellow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
 
 </Project>
